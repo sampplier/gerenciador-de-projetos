@@ -28,7 +28,7 @@ public class TarefaService {
     }
 
     public Tarefa salvarTarefa(Tarefa tarefa) {
-        logger.info("Salvando nova tarefa: {}", tarefa.getTitulo());
+        logger.info("Salvando  tarefa: {}", tarefa.getTitulo());
         return tarefaRepository.save(tarefa);
     }
 
